@@ -187,10 +187,6 @@ section {
     fill: var(--brand);
 }
 
-#home .navbar .logo svg {
-    fill: var(--brand);
-}
-
 #home .navbar .logo {
     display: flex;
     align-items: center;
@@ -199,15 +195,17 @@ section {
 }
 
 #home .navbar .logo a,
-.container .navbar .logo a {
-    text-decoration: none;
+.container .navbar .logo a img {
+/*     text-decoration: none;
     margin-left: -3px;
     color: #0a0a0a;
     background: linear-gradient(to left, #1e95df, #2b41e7);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    animation: animateColor 10s linear infinite;
+    animation: animateColor 10s linear infinite; */
+    height: 80px;
+    width: 80px;
 }
 
 #home .navbar .logo h1 a:hover {
