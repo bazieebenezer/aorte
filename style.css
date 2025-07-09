@@ -208,7 +208,7 @@ section {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     animation: animateColor 10s linear infinite;*/
-    height: 80px;
+    height: 60px;
 }
 
 #home .navbar .logo h1 a:hover {
