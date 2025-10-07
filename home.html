@@ -151,20 +151,20 @@
         <div class="form_img">
             <img src="img/IMG_0818.JPG" alt="">
         </div>
-        <form action="">
+        <form action="https://formspree.io/f/your@email.com" method="POST">
             <label for="lastname">Nom</label>
-            <input type="text" id="lastname" class="lastname">
+            <input type="text" id="lastname" class="lastname" name="lastname">
             <label for="gmai">Gmail</label>
-            <input type="email" id="gmai" class="gmai">
+            <input type="email" id="gmai" class="gmai" name="email">
             <label for="phone">Téléphone</label>
-            <input type="number" id="phone" class="phone">
+            <input type="number" id="phone" class="phone" name="phone">
             <label for="state">Status</label>
-            <select id="state">
+            <select id="state" name="state">
                 <option value="Etudiant">Etudiant</option>
                 <option value="Entreprise">Entreprise</option>
             </select>
             <label for="message">Message</label>
-            <textarea id="message" class="messages"></textarea>
+            <textarea id="message" class="messages" name="message"></textarea>
             <button type="submit">Envoyer</button>
         </form>
     </section>
